@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #024e76;
-    --secondary-color: gray;
+    --primary-color: rgb(48, 47, 47);
+    --secondary-color: black;
     --tertiary-color: cornflowerblue;
 }
 
@@ -29,6 +29,7 @@ header {
     padding: 20px 35px;
     position: -webkit-sticky;
     position: sticky;
+
 }
 
 header nav {
