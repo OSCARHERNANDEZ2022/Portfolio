@@ -5,34 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Oscar's Portfolio Website</title>
         <link rel="stylesheet" type="text/css" href="./style.css"/>
+
       
     </head>
     <body>
-        <header>
-            <div class="logo">
-
-            </div>
-            <button class="nav-toggle" aria-label="toggle-navigation">
-                <span class="hamburger"></span>
+        <header>   
+            <!-- <button class="nav-toggle" aria-label="toggle-navigation"> -->
            
-            <nav class="nav nav-close">
-                <ul class="nav__list">
-                  <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                  <li class="nav__item"><a href="#home" class="nav__link">What I do</a> </li>
-                  <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>       
+            <nav>
+                <ul>
+                  <li><a href="#home" class="nav__link">Home</a></li>
+                  <li><a href="#home" class="nav__link">What I do</a> </li>
+                  <li><a href="#work" class="nav__link">My Work</a></li>       
 
                 </ul>
             </nav>
-        </button>
+     
         </header> 
         
         <!-- Introduction -->
         <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, my name is<strong>Oscar Hernandez</strong>
+            <img src="./images/portfolio picture.jpg" alt="my picture" class="intro__image" style="width: 250px">  
+            <h1>
+                Hi, my name is <strong>Oscar Hernandez</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">FULL STACK DEVELOPER</p>
-            <img src="./images/portfolio picture.jpg" alt="my picture" class="intro__image" style="width: 250px">        
+          
         </section>
 
         <!-- My Services -->
@@ -94,15 +92,16 @@
         <!-- footer -->
 
         <footer class="footer">
-            <a href="mailto:oscarhernandezmex@gmail.com" class="footer__link">oscarhernandezmex@gmail.com</a>
+            <p>Please send me an email and check out my work</p>
+            <a href="mailto:oscarhernandezmex@gmail.com" class="footer-link">oscarhernandezmex@gmail.com</a>
             <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link"
+                <li class="social-list-item"><a class="social-list__link"
                     href="https://github.com/OSCARHERNANDEZ2022">GIT HUB</a></li>
             </ul>
         </footer>
 
 
-        <script src="index.js"></script>
+        <!-- <script src="index.js"></script> -->
   
     </body>
 </html>
