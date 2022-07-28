@@ -19,41 +19,53 @@ body {
 
 header {
     z-index: 9999;
+    background-image: url("./images/image 6.jpg");
     background-size: cover;
+    background-attachment: calc(15px );
     background-position: 80%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--primary-color);
+    padding: 25px 35px;
+    background-color: black;
     top: 0;
     padding: 20px 35px;
     position: -webkit-sticky;
     position: sticky;
-
-}
-
-header nav {
-    margin: 9px 0;
-    padding: 8px 10px 15px 15px;
-}
-
-header nav ul {
-    list-style-type: none;
-    font-size: 20px;
 }
 
 header a {
     text-decoration: none;
-    color: var(--secondary-color);
- } 
+    color: red;
+} 
 
 
- 
+header nav {
+    margin: 15px 0;
+}
+
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+header nav ul li a {
+    text-shadow: o o px rgba(o, 0, 0, 0.5);
+    padding: 10px 15px;
+    font-weight: lighter;
+}
 
 
 /* intro styling */
 
 .intro {
+    padding: 50px 2px 20px 2px;
     background-color: var(--primary-color);
     font-weight: bold;
     font-size: 25px;
@@ -61,22 +73,52 @@ header a {
     color: cornflowerblue;
 }
 
-/* .intro h1 {
-    
-} */
 
 /* my services */
 
+
 .my-services {
-   background-color: var(--primary-color);
-}
-
-/* my work */
-
-.my-work {
     background-color: var(--primary-color);
+     color:  cornflowerblue;
+ }
+
+.my-services h2 {
+    border-bottom: 4px solid #310608;
+    margin: 0 auto 35px auto; 
+    padding: 40px 5px 10px 5px;
+    width: 35%;
+    font-size: 35px;
+    font-weight: 200;
+    font: bolder;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+/* 
+ .services {
+    justify-content: center;
+    flex-flow: column;
+    margin: 20px;
+    flex: 1;
+ } */
+
+ /* .service {
+    column-span: 3;
+ } */
+/* my work */
+
+ .my-work {
+    background-color: var(--primary-color);
+    align-items: center;
+    color: aqua;
+}
+
+.btn {
+    align-items: center;
+}
+
+
 
 /* footer */
 
