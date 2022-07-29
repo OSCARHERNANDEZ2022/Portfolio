@@ -95,28 +95,41 @@ header nav ul li a {
     align-items: center;
 }
 
-/* 
- .services {
-    justify-content: center;
-    flex-flow: column;
-    margin: 20px;
-    flex: 1;
- } */
 
- /* .service {
-    column-span: 3;
- } */
-/* my work */
+ .services {
+    column-count: 3;
+    font-size: larger;
+    padding: 30px 75px 30px 75px;
+    
+    /* flex: 1; */
+ }
+
+ .service {
+    background-color: rgb(59, 73, 85);
+ }
+
+
+ /* my work */
 
  .my-work {
+    /* justify-content: center; */
     background-color: var(--primary-color);
-    align-items: center;
+    /* align-items: center; */
     color: aqua;
 }
 
-.btn {
-    align-items: center;
+.work-title  {
+    background-color: black;
+    text-align: center;
 }
+
+.sample {
+    text-align: center;
+}
+
+/* .btn {
+    align-items: center;
+} */
 
 
 
